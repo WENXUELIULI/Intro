@@ -26,7 +26,7 @@ highlights:
       - title: 沧州市智能3D打印制造技术创新中心由沧州交通学院负责，于2020年成立，详见文件“沧州市科学技术局关于2021年1月27日新认定沧州市市级技术创新中心的通知”（详见：沧科字[2021]3号）。中心旨在提升机器人与3D打印技术的创新能力，推动地区现代制造业的技术进步。2021年，中心获得了“黄骅市2021年度科技创新奖励资金拟支持项目及经费安排公示”，财政拨款10万元（详见：黄骅市政府网站）。我们的中心专注于建立高效管理体系、加强人才培养和教育，以及推动技术研发。
 
   - header: 中心专注于以下几个关键领域
-    description: 我们扩展了标准的 CommonMark 规范，为你添加了成吨功能。
+    description: 
     image: assets\image\field.png
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
@@ -52,7 +52,7 @@ highlights:
       - title: 多级协同打印与图像检测技术
         icon: clipboard-check
         details: 利用开源机器人操作系统ROS与3D打印机器人结合，实现多级协同打印。<br>通过图像识别技术，实时监测打印过程，确保打印质量。
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
+        link: ###
 
   - header: 教育与培训
     image: 
@@ -81,7 +81,7 @@ highlights:
   - header: 未来展望
     bgImage: /assets/image/bgimage.jpg
     description: 沧州市智能3D打印制造技术创新中心将继续致力于推动3D打印与机器人技术的创新和应用。计划进一步加强与企业和科研机构的合作，不断提升技术水平和应用效果。未来，中心将通过不断优化管理和技术研发，为创客和教育领域提供更多的资源和平台，推动技术的普及和发展。
-    
+
       
 
 ---
@@ -105,8 +105,9 @@ highlights:
 | 低成本教育用多关节机械臂设计 | 孙杰, 姜启龙 | 设计用于低成本生产的教育用多关节机械臂。 |
 | 基于机器视觉的教学用机器人工作站设计与开发 | 李云飞, 姜启龙 | 使用机器视觉技术创建教学用机器人工作站。 |
 
-<script setup>
-import CenterHighlights from './CenterHighlights.vue';
+<script setup lang="ts">
+import CenterHighlights from './components/ConterFeatures.vue';
+
 </script>
 
 
