@@ -14,6 +14,7 @@ export default sidebar({
       text: "竞赛与项目",
       icon: "book",
       prefix: "guide/",
+      link: "guide/",
       children: "structure",
     },
     

@@ -2,6 +2,15 @@ import { defineUserConfig } from "vuepress";
 
 import theme from "./theme.js";
 
+// 全局注册例子
+// const clientConfig = defineClientConfig({
+//   enhance({ app, router, siteData }) {
+//     app.component("CenterHighlights", CenterHighlights); // 全局注册组件
+//   },
+//   setup() {},
+//   rootComponents: [],
+// });
+
 export default defineUserConfig({
   base: "/",
 
@@ -11,6 +20,8 @@ export default defineUserConfig({
 
   theme,
 
+  
   // 和 PWA 一起启用
   // shouldPrefetch: false,
 });
+

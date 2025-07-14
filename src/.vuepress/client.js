@@ -1,9 +1,10 @@
 import { defineClientConfig } from 'vuepress/client'
-import CenterHighlights from './components/ConterFeatures.vue'
+import ProjectTable from './components/ProjectTable.vue'
+import PatentTable from './components/PatentTable.vue'
 export default defineClientConfig({
-  enhance({ app}) {
+  enhance({ app }) {
     // 全局注册组件
-
-    app.component('CenterHighlights', CenterHighlights)
+    app.component('ProjectTable', ProjectTable)
+    app.component('PatentTable', PatentTable)
   },
 })
